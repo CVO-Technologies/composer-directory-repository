@@ -1,0 +1,23 @@
+{
+    "name": "cvo-technologies/composer-directory-repository",
+    "type": "composer-plugin",
+    "require": {
+        "composer/composer": "dev-master",
+        "composer-plugin-api": "1.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marlin Cremers",
+            "email": "m.cremers@cvo-technologies.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ComposerDirectoryRepository\\": "src"
+        }
+    },
+    "extra": {
+        "class": "ComposerDirectoryRepository\\DirectoryRepositoryPlugin"
+    }
+}
